@@ -1,0 +1,39 @@
+.coinContainer {
+    padding: 20px;
+  }
+  
+  .coinCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #b98016;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    width: 300px;
+ 
+   
+  }
+  
+  .coinCard h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .coinCard p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    
+  }
+  .btn{
+    border-radius: 10px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+  
+  }

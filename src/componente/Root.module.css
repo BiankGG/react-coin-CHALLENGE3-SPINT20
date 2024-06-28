@@ -1,0 +1,39 @@
+
+
+.rooth2{
+    color: #929c0471;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.navbar{
+    background-color: rgb(102, 59, 9);
+    width: 100%;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s all linear;
+}
+
+.navbar ul li a:hover{
+    font-size: 24px;
+    transition: 0.2s all linear;
+    
+}

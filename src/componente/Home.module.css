@@ -1,0 +1,48 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  }
+  .homeContainer h1 {
+    font-size: 60px;
+    color: #929c0471;
+    margin-bottom: 20px;
+  }
+
+  .cryptoList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cryptoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    width: 120px;
+    height: 150px; 
+    background: rgb(247, 243, 4);
+    border: 3px solid #e9ac03c4;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+
+  .cryptoCard h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .cryptoCard p {
+    color: #666;
+  }
+
+
+  /* Root css */
